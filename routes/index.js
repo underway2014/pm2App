@@ -9,7 +9,7 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
 //   res.render('index', { title: 'Express' });
-res.send('deploy test');
+res.send('deploy test, change return jsons');
 });
 
 module.exports = router;
