@@ -9,6 +9,18 @@ module.exports = {
     {
       name      : 'API',
       script    : 'app.js',
+      port: 4000,
+      env: {
+        COMMON_VARIABLE: 'true'
+      },
+      env_production : {
+        NODE_ENV: 'production'
+      }
+    },
+    {
+      name      : 'API',
+      script    : 'app.js',
+      port: 5000,
       env: {
         COMMON_VARIABLE: 'true'
       },
