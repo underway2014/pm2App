@@ -1,3 +1,7 @@
+
+
+//pm2 deploy ecosystem.config.js production
+
 module.exports = {
   /**
    * Application configuration section
@@ -7,7 +11,7 @@ module.exports = {
 
     // First application
     {
-      name      : 'API',
+      name      : 'API:4000',
       script    : 'app.js',
       port: 4000,
       env: {
@@ -18,7 +22,7 @@ module.exports = {
       }
     },
     {
-      name      : 'API',
+      name      : 'API:5000',
       script    : 'app.js',
       port: 5000,
       env: {
