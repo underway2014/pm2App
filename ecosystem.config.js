@@ -34,9 +34,11 @@ module.exports = {
     },
   ],
 
-  /**
-   * Deployment section
-   * http://pm2.keymetrics.io/docs/usage/deployment/
+  /**install:
+   * pm2 deploy ecosystem.config.json production setup
+   * deploy:
+   * pm2 deploy ecosystem.config.json production
+   * 
    */
   deploy : {
     production : {
