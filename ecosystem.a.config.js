@@ -13,7 +13,7 @@ module.exports = {
     {
       name      : 'API:8000',
       script    : 'app.a.js',
-      port: 4000,
+      port: 8000,
       env: {
         COMMON_VARIABLE: 'true'
       },
@@ -24,7 +24,7 @@ module.exports = {
     {
       name      : 'API:9000',
       script    : 'app.a.js',
-      port: 5000,
+      port: 9000,
       env: {
         COMMON_VARIABLE: 'true'
       },
