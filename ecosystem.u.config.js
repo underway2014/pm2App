@@ -48,7 +48,7 @@ module.exports = {
       host : '192.168.118.133',
       ref  : 'origin/master',
       repo : 'git@github.com:underway2014/pm2App.git',
-      path : '/home/deploy/testPro1',
+      path : '/var/www/testPro1',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
     dev : {
