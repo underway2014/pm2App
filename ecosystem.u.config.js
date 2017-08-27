@@ -44,7 +44,7 @@ module.exports = {
    */
   deploy : {
     production : {
-      user : 'deploy',
+      user : 'ubinli',
       host : '192.168.118.133',
       ref  : 'origin/master',
       repo : 'git@github.com:underway2014/pm2App.git',
