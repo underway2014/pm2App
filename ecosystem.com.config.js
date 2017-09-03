@@ -51,6 +51,14 @@ module.exports = {
       path : '/var/www/testPro',
       'post-deploy' : 'npm install && pm2 reload ecosystem.com.config.js --env production'
     },
+    productionHomeUbuntu : {
+      user : 'deploy',
+      host : ['192.168.118.129'],
+      ref  : 'origin/master',
+      repo : 'git@github.com:underway2014/pm2App.git',
+      path : '/var/www/testPro',
+      'post-deploy' : 'npm install && pm2 reload ecosystem.com.config.js --env production'
+    },
     dev : {
       user : 'node',
       host : '212.83.163.1',
