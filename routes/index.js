@@ -13,8 +13,8 @@ res.send('deploy test, single deploy home ubuntu');
 });
 
 router.get('/wx', function(req, res, next){
-    console.log('req.echostr >> ', req.echostr)
-    res.send(req.echostr)
+    console.log('req.echostr >> ', req.query.echostr)
+    res.send(req.query.echostr)
 })
 
 module.exports = router;
