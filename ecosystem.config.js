@@ -22,9 +22,9 @@ module.exports = {
       }
     },
     {
-      name      : 'API:5000',
+      name      : 'API:4001',
       script    : 'app.js',
-      port: 5000,
+      port: 4001,
       env: {
         COMMON_VARIABLE: 'true'
       },
